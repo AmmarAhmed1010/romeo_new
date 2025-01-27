@@ -3,12 +3,14 @@ import Footer from '@/components/Footer'
 import Header from '@/components/Header'
 import Plans from '@/components/Plans'
 import PriceList from '@/components/PriceList'
+import Slider from '@/components/Slider'
 import React from 'react'
 
 const page = () => {
   return (
     <div>
       <Header/>
+      <Slider/>
       <Achievements/>
       <Plans/>
       <PriceList/>
