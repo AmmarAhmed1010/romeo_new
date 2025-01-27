@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import Btn from "./Btn";
 
 const HeroSection: React.FC = () => {
   return (
@@ -38,8 +37,6 @@ const HeroSection: React.FC = () => {
 
         {/* Buttons */}
         <div className="buttons flex space-x-4">
-          <Btn text="View My work" />
-          <Btn text="Contact" />{" "}
         </div>
       </div>
     </section>
